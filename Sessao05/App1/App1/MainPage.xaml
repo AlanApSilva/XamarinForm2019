@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+
+    <StackLayout BackgroundColor="#FFBF80" Padding="30" Spacing="30">
+
+        <Image Source="logo.jpg" x:Name="logo"></Image>
+        <Entry x:Name="txtCep" Placeholder="Digite o CEP" PlaceholderColor="#FFBF80" BackgroundColor="White"></Entry>
+        <Button x:Name="btnBuscar" Text="Buscar Cep" TextColor="White" BackgroundColor="Blue"></Button>
+        <!-- Place new controls here -->
+        <Label x:Name="lblResultado" Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
